@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Yongho Kwon</title>
+  <desc id="desc">Software developer working with Unreal Engine 5, C++, Java, Flutter and React.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#eef2fb"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891b2"/><stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#dde4f0" stroke-width="1"/>
+    </pattern>
+    <mask id="fade"><rect width="1200" height="320" fill="url(#fadeg)"/></mask>
+    <linearGradient id="fadeg" x1="0" x2="1"><stop offset="0.35" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .eyebrow { font-size: 15px; letter-spacing: 3px; fill: #0891b2; }
+    .name { font-size: 64px; font-weight: 800; letter-spacing: -1.5px; fill: #0f172a; }
+    .bio { font-size: 19px; fill: #56627a; }
+    .rot { font-size: 20px; font-weight: 600; fill: url(#accent); opacity: 0; animation: cycle 9s infinite; }
+    .r1 { animation-delay: 3s; } .r2 { animation-delay: 6s; }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(8px); } 5%, 28% { opacity: 1; transform: none; } 33%, 100% { opacity: 0; transform: translateY(-8px); } }
+    .orbit { transform-origin: 960px 160px; animation: spin 40s linear infinite; }
+    .orbit2 { transform-origin: 960px 160px; animation: spin 26s linear infinite reverse; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rot, .orbit, .orbit2, .pulse, .caret { animation: none; }
+      .r0 { opacity: 1; }
+    }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#fade)"/>
+    <circle cx="960" cy="160" r="220" fill="url(#glow)"/>
+    <g class="orbit" fill="none" stroke="url(#accent)" stroke-width="1.5">
+      <ellipse cx="960" cy="160" rx="150" ry="150" stroke-opacity="0.55" stroke-dasharray="2 10"/>
+      <circle cx="1110" cy="160" r="6" fill="#0891b2" stroke="none"/>
+    </g>
+    <g class="orbit2" fill="none" stroke="url(#accent)" stroke-width="1.5">
+      <ellipse cx="960" cy="160" rx="96" ry="96" stroke-opacity="0.8"/>
+      <circle cx="864" cy="160" r="5" fill="#7c3aed" stroke="none"/>
+    </g>
+    <g class="mono" font-size="28" font-weight="700" text-anchor="middle">
+      <text x="960" y="170" fill="url(#accent)">&lt;/&gt;</text>
+    </g>
+    <circle class="pulse" cx="960" cy="160" r="46" fill="none" stroke="#0f172a" stroke-opacity="0.18" stroke-width="1"/>
+    <rect x="72" y="70" width="44" height="4" rx="2" fill="url(#accent)"/>
+    <text class="eyebrow mono" x="72" y="106">HELLO, WORLD — I'M</text>
+    <text class="name" x="68" y="176">Yongho Kwon</text>
+    <text class="bio" x="72" y="276">I want to be a nice developer!!<tspan class="caret mono" fill="#0891b2"> _</tspan></text>
+    <text class="rot r0" x="72" y="236">Unreal Engine 5  ·  C++  ·  Blueprint</text>
+    <text class="rot r1" x="72" y="236">Java  ·  Algorithms  ·  Problem Solving</text>
+    <text class="rot r2" x="72" y="236">Flutter  ·  React  ·  Cross-platform apps</text>
+  </g>
+</svg>
