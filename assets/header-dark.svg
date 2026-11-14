@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
   <title id="t">Yongho Kwon</title>
-  <desc id="d">Digital twins for manufacturing with Unreal Engine 5 and C++. Web with React and JavaScript. Algorithms in Java.</desc>
+  <desc id="d">Digital twins for manufacturing with Unreal Engine 5 and C++. AI-assisted development with coding agents. Web with React and JavaScript.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Helvetica, Arial, sans-serif; }
     .mono, .num { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -23,9 +23,9 @@
     <text class="ttl" x="844" y="96">Digital Twin</text>
     <text class="det" x="844" y="122">Manufacturing · Unreal Engine 5 · C++</text>
     <text class="num" x="800" y="162">02</text>
-    <text class="ttl" x="844" y="162">Web</text>
-    <text class="det" x="844" y="188">React · JavaScript · HTML/CSS</text>
+    <text class="ttl" x="844" y="162">AI-assisted Dev</text>
+    <text class="det" x="844" y="188">Coding agents · Claude · Codex</text>
     <text class="num" x="800" y="228">03</text>
-    <text class="ttl" x="844" y="228">Algorithms</text>
-    <text class="det" x="844" y="254">Java</text>
+    <text class="ttl" x="844" y="228">Web</text>
+    <text class="det" x="844" y="254">React · JavaScript · HTML/CSS</text>
 </svg>
