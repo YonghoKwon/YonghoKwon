@@ -17,3 +17,15 @@ Claude, Codex 같은 AI 코딩 에이전트와 함께 개발하는 방식에 관
   <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
   <img alt="Most used languages" src="./profile/top-langs-light.svg" width="49%">
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack: Unreal Engine 5, C++, Blueprint, Java, Spring Boot, React, TypeScript, JavaScript, Claude, Codex, Git, GitHub Actions, Python, PowerShell" src="./assets/stack-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/snake-light.svg">
+  <img alt="Contribution graph eaten by a snake" src="./profile/snake-light.svg" width="100%">
+</picture>
