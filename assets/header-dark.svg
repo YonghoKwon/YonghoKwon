@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
   <title id="t">Yongho Kwon</title>
-  <desc id="d">Game and 3D with Unreal Engine 5, C++ and Blueprint. Apps with Flutter, React and JavaScript. Algorithms in Java.</desc>
+  <desc id="d">Digital twins for manufacturing with Unreal Engine 5 and C++. Web with React and JavaScript. Algorithms in Java.</desc>
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Helvetica, Arial, sans-serif; }
     .mono, .num { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -20,11 +20,11 @@
   <text class="bio sans" x="64" y="218">I want to be a nice developer!!<tspan class="caret mono" dx="6" fill="#ff7a45">_</tspan></text>
   <line x1="768" y1="68" x2="768" y2="258" stroke="#2e2f35" stroke-width="1"/>
     <text class="num" x="800" y="96">01</text>
-    <text class="ttl" x="844" y="96">Game &amp; 3D</text>
-    <text class="det" x="844" y="122">Unreal Engine 5 · C++ · Blueprint</text>
+    <text class="ttl" x="844" y="96">Digital Twin</text>
+    <text class="det" x="844" y="122">Manufacturing · Unreal Engine 5 · C++</text>
     <text class="num" x="800" y="162">02</text>
-    <text class="ttl" x="844" y="162">Apps</text>
-    <text class="det" x="844" y="188">Flutter · React · JavaScript</text>
+    <text class="ttl" x="844" y="162">Web</text>
+    <text class="det" x="844" y="188">React · JavaScript · HTML/CSS</text>
     <text class="num" x="800" y="228">03</text>
     <text class="ttl" x="844" y="228">Algorithms</text>
     <text class="det" x="844" y="254">Java</text>

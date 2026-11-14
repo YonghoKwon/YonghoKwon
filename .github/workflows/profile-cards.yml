@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&custom_title=Activity&hide_rank=true&include_all_commits=true&hide_border=true&title_color=1b1b1a&text_color=6f6d68&bg_color=00000000
+          options: username=${{ github.repository_owner }}&custom_title=Activity&hide=stars,contribs&hide_rank=true&include_all_commits=true&hide_border=true&title_color=1b1b1a&text_color=6f6d68&bg_color=00000000
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,7 +37,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&custom_title=Activity&hide_rank=true&include_all_commits=true&hide_border=true&title_color=ecebe7&text_color=93918b&bg_color=00000000
+          options: username=${{ github.repository_owner }}&custom_title=Activity&hide=stars,contribs&hide_rank=true&include_all_commits=true&hide_border=true&title_color=ecebe7&text_color=93918b&bg_color=00000000
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

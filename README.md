@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Yongho Kwon. Game and 3D with Unreal Engine 5, apps with Flutter and React, algorithms in Java." src="./assets/header-light.svg" width="100%">
+  <img alt="Yongho Kwon. Digital twins for manufacturing with Unreal Engine 5, web with React, algorithms in Java." src="./assets/header-light.svg" width="100%">
 </picture>
 
-Unreal Engine 5로 C++와 블루프린트를 공부하고, Flutter와 React로 앱을 만듭니다.<br/>
-틈틈이 Java로 알고리즘 문제를 풉니다.
+제조 현장에서 쓰는 디지털 트윈(DT)을 Unreal Engine 5와 C++로 개발합니다.<br/>
+React로 웹 화면을 만들고, 틈틈이 Java로 알고리즘 문제를 풉니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
