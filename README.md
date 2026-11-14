@@ -10,10 +10,10 @@ Claude, Codex 같은 AI 코딩 에이전트와 함께 개발하는 방식에 관
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
-  <img alt="GitHub activity" src="./profile/stats-light.svg">
+  <img alt="GitHub activity" src="./profile/stats-light.svg" width="49%">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg">
-  <img alt="Most used languages" src="./profile/top-langs-light.svg">
+  <img alt="Most used languages" src="./profile/top-langs-light.svg" width="49%">
 </picture>
