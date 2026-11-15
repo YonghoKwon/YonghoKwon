@@ -1,11 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Yongho Kwon. Digital twins for manufacturing with Unreal Engine 5, AI-assisted development, backend with Java and Spring Boot." src="./assets/header-light.svg" width="100%">
+  <img alt="Yongho Kwon. Digital twins for manufacturing with Unreal Engine 5, AI-assisted development, backend and tooling with Spring Boot, .NET and Pixel Streaming." src="./assets/header-light.svg" width="100%">
 </picture>
 
-제조 현장에서 쓰는 디지털 트윈(DT)을 Unreal Engine 5와 C++로 개발하고, Java와 Spring Boot로 백엔드도 개발합니다.<br/>
-Claude, Codex 같은 AI 코딩 에이전트와 함께 개발하는 방식에 관심이 많고, React로 웹 화면도 만듭니다.
+제조 현장에서 쓰는 디지털 트윈(DT)을 Unreal Engine 5와 C++로 개발합니다.<br/>
+센서·CCTV 플러그인부터 테스트 데이터 생성기(Spring Boot), 배포 런처(.NET)까지 함께 만듭니다.<br/>
+Claude, Codex 같은 AI 코딩 에이전트와 함께 개발하는 방식에 관심이 많습니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
@@ -21,7 +22,7 @@ Claude, Codex 같은 AI 코딩 에이전트와 함께 개발하는 방식에 관
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img alt="Stack: Unreal Engine 5, C++, Blueprint, Java, Spring Boot, React, TypeScript, JavaScript, Claude, Codex, Git, GitHub Actions, Python, PowerShell" src="./assets/stack-light.svg" width="100%">
+  <img alt="Stack: Unreal Engine 5, C++, Blueprint, FFmpeg, Java 21, Spring Boot, ActiveMQ Artemis, STOMP, C#, .NET 8, Avalonia, TypeScript, Pixel Streaming, Claude, Codex, Git, GitHub Actions, PowerShell, Python" src="./assets/stack-light.svg" width="100%">
 </picture>
 
 <picture>
