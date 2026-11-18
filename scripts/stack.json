@@ -1,0 +1,45 @@
+{
+  "_help": "Stack card rules. An item is shown when ANY rule matches in a public, non-fork, non-archived repo. Rules: languages (GitHub language, share >= min_share), topics (repo topics), files (glob on repo paths), path_contains (substring of any path, case-insensitive), file_contains ({glob, text} - text searched in the first matching files), always (always shown). Add a repo topic such as 'spring-boot' to force an item.",
+  "min_share": 0.01,
+  "other_min_share": 0.03,
+  "other_label": "OTHER",
+  "ignore_languages": ["Batchfile", "Shell", "CMake", "Makefile", "Dockerfile", "HLSL", "ShaderLab", "HTML", "CSS", "SCSS", "C"],
+  "groups": [
+    {"label": "DIGITAL TWIN", "items": [
+      {"name": "Unreal Engine 5", "files": ["*.uproject", "**/*.uplugin", "*.uplugin"], "topics": ["unreal-engine", "unreal-engine-5", "ue5"]},
+      {"name": "C++", "languages": ["C++"]},
+      {"name": "Blueprint", "files": ["**/*.uasset"], "topics": ["blueprint"]},
+      {"name": "FFmpeg", "path_contains": ["ffmpeg"], "topics": ["ffmpeg"]}
+    ]},
+    {"label": "BACKEND", "items": [
+      {"name": "Java", "languages": ["Java"]},
+      {"name": "Kotlin", "languages": ["Kotlin"]},
+      {"name": "Spring Boot", "file_contains": [{"glob": "**/pom.xml", "text": "spring-boot"}, {"glob": "pom.xml", "text": "spring-boot"}, {"glob": "**/build.gradle*", "text": "org.springframework.boot"}, {"glob": "build.gradle*", "text": "org.springframework.boot"}], "topics": ["spring-boot"]},
+      {"name": "ActiveMQ Artemis", "file_contains": [{"glob": "**/pom.xml", "text": "artemis"}, {"glob": "pom.xml", "text": "artemis"}], "topics": ["activemq-artemis", "artemis"]},
+      {"name": "STOMP", "file_contains": [{"glob": "**/*.Build.cs", "text": "\"Stomp\""}, {"glob": "**/pom.xml", "text": "stomp"}, {"glob": "pom.xml", "text": "stomp"}], "topics": ["stomp"]},
+      {"name": "Kafka", "file_contains": [{"glob": "**/pom.xml", "text": "kafka"}, {"glob": "pom.xml", "text": "kafka"}], "topics": ["kafka"]}
+    ]},
+    {"label": "DESKTOP", "items": [
+      {"name": "C#", "languages": ["C#"]},
+      {"name": ".NET", "files": ["**/*.csproj", "*.csproj", "*.sln"], "topics": ["dotnet"]},
+      {"name": "Avalonia", "file_contains": [{"glob": "**/*.csproj", "text": "Avalonia"}, {"glob": "*.csproj", "text": "Avalonia"}], "topics": ["avalonia"]}
+    ]},
+    {"label": "WEB", "items": [
+      {"name": "TypeScript", "languages": ["TypeScript"]},
+      {"name": "JavaScript", "languages": ["JavaScript"]},
+      {"name": "React", "file_contains": [{"glob": "package.json", "text": "\"react\""}, {"glob": "*/package.json", "text": "\"react\""}], "topics": ["react"]},
+      {"name": "Pixel Streaming", "path_contains": ["pixelstreaming"], "topics": ["pixel-streaming"]}
+    ]},
+    {"label": "AI", "items": [
+      {"name": "Claude", "always": true},
+      {"name": "Codex", "always": true}
+    ]},
+    {"label": "TOOLS", "items": [
+      {"name": "Git", "always": true},
+      {"name": "GitHub Actions", "files": [".github/workflows/*.yml", ".github/workflows/*.yaml"]},
+      {"name": "Docker", "files": ["Dockerfile", "**/Dockerfile", "docker-compose.yml", "compose.yaml"], "topics": ["docker"]},
+      {"name": "PowerShell", "languages": ["PowerShell"]},
+      {"name": "Python", "languages": ["Python"]}
+    ]}
+  ]
+}
