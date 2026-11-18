@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="t d">
   <title id="t">Stack</title>
-  <desc id="d">Digital Twin: Unreal Engine 5, C++, Blueprint, FFmpeg; Backend: Java, Spring Boot, ActiveMQ Artemis, STOMP; Desktop: C#, .NET, Avalonia; Web: TypeScript, JavaScript, React, Pixel Streaming; Ai: Claude, Codex; Tools: Git, GitHub Actions, Docker, PowerShell, Python</desc>
+  <desc id="d">DIGITAL TWIN: Unreal Engine 5, C++, Blueprint, FFmpeg; BACKEND: Java, Spring Boot, ActiveMQ Artemis, STOMP; DESKTOP: C#, .NET, Avalonia; WEB: TypeScript, JavaScript, React, Pixel Streaming; AI: Claude, Codex; TOOLS: Git, GitHub Actions, Docker, PowerShell, Python</desc>
   <style>
     .head { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 1.5px; fill: #6f6d68; }
     .lbl { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 1.5px; fill: #d9480f; }
