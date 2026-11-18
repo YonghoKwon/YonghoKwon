@@ -1,5 +1,6 @@
 {
-  "_help": "Stack card rules. An item is shown when ANY rule matches in a public, non-fork, non-archived repo. Rules: languages (GitHub language, share >= min_share), topics (repo topics), files (glob on repo paths), path_contains (substring of any path, case-insensitive), file_contains ({glob, text} - text searched in the first matching files), always (always shown). Add a repo topic such as 'spring-boot' to force an item.",
+  "_help": "Stack card rules. An item is shown when ANY rule matches in a public, non-fork, non-archived repo. Rules: languages (GitHub language, share >= min_share), topics (repo topics), files (glob on repo paths), path_contains (substring of any path, case-insensitive), file_contains ({glob, text} - text searched in the first matching files), always (always shown). Add a repo topic such as 'spring-boot' to force an item. Put an item name in 'hide' to never show it.",
+  "hide": [],
   "min_share": 0.01,
   "other_min_share": 0.03,
   "other_label": "OTHER",

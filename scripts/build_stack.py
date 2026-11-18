@@ -95,11 +95,12 @@ def detect(repos, cfg):
     for g in cfg["groups"]:
         for it in g["items"]:
             mapped.update(it.get("languages", []))
-        chips = [it["name"] for it in g["items"] if hit(it)]
+        hidden = set(cfg.get("hide", []))
+        chips = [it["name"] for it in g["items"] if it["name"] not in hidden and hit(it)]
         if chips:
             groups.append((g["label"], chips))
     other = [l for l, s in sorted(share.items(), key=lambda x: -x[1])
-             if l not in mapped and l not in cfg["ignore_languages"] and s >= cfg["other_min_share"]]
+             if l not in mapped and l not in cfg["ignore_languages"] and l not in cfg.get("hide", []) and s >= cfg["other_min_share"]]
     if other:
         groups.append((cfg["other_label"], other))
     return groups
@@ -135,7 +136,7 @@ def render(groups, t):
         for c, x, y, w in chips:
             body.append(f'  <rect x="{x}" y="{y}" width="{w}" height="34" rx="17" fill="{t["chip"]}" stroke="{t["line"]}"/>')
             body.append(f'  <text class="chip" x="{x + w / 2:.1f}" y="{y + 22}" text-anchor="middle">{escape(c)}</text>')
-    desc = escape("; ".join(f"{l.title()}: {', '.join(c)}" for l, c in groups))
+    desc = escape("; ".join(f"{l}: {', '.join(c)}" for l, c in groups))
     mono = 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{h}" viewBox="0 0 1000 {h}" role="img" aria-labelledby="t d">
   <title id="t">Stack</title>
